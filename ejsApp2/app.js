@@ -73,10 +73,10 @@ app.get('/movies', function(req, res) {
 // tvshows page 
 app.get('/tvshows', function(req, res) {
     let tvshowObject ={
-        tvshow1: "TV show 1",
-        tvshow2: "TV show 2",
-        tvshow3: "TV show 3",
-        tvshow4: "TV show 4"
+        tvshow1: "Pokemon",
+        tvshow2: "Stone Age",
+        tvshow3: "The Last Kids on Earth",
+        tvshow4: "The Magic School Bus"
     };
     res.render('pages/tvshows', {  // pass the data to the page renderer
         tvshow: tvshowObject
